@@ -1,0 +1,1 @@
+Activitate laborator CTS 2024.
