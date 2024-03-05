@@ -1,8 +1,7 @@
-package clase.aplicanti;
+package classes.aplicanti;
 
-import clase.aplicanti.interfete.Aplicant;
+import classes.aplicanti.interfete.Aplicant;
 
-import java.util.Arrays;
 import java.util.List;
 
 public class Student extends Aplicant {

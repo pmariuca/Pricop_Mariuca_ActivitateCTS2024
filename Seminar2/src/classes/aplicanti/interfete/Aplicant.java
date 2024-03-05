@@ -1,4 +1,4 @@
-package clase.aplicanti.interfete;
+package classes.aplicanti.interfete;
 
 import java.util.List;
 

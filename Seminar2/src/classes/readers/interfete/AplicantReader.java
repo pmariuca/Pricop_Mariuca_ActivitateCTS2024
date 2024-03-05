@@ -1,6 +1,6 @@
-package clase.readers.interfete;
+package classes.readers.interfete;
 
-import clase.aplicanti.interfete.Aplicant;
+import classes.aplicanti.interfete.Aplicant;
 
 import java.io.FileNotFoundException;
 import java.util.ArrayList;

@@ -1,8 +1,8 @@
-package clase.readers;
+package classes.readers;
 
-import clase.aplicanti.Angajat;
-import clase.aplicanti.interfete.Aplicant;
-import clase.readers.interfete.AplicantReader;
+import classes.aplicanti.Angajat;
+import classes.aplicanti.interfete.Aplicant;
+import classes.readers.interfete.AplicantReader;
 
 import java.io.File;
 import java.io.FileNotFoundException;

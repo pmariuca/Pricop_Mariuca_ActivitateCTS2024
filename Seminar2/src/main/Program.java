@@ -3,9 +3,9 @@ package main;
 import java.io.FileNotFoundException;
 import java.util.List;
 
-import clase.aplicanti.interfete.Aplicant;
-import clase.readers.AngajatReader;
-import clase.readers.interfete.AplicantReader;
+import classes.aplicanti.interfete.Aplicant;
+import classes.readers.AngajatReader;
+import classes.readers.interfete.AplicantReader;
 
 public class Program {
 

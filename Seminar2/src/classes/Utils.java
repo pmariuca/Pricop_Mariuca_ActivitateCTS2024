@@ -1,8 +1,8 @@
-package clase;
+package classes;
 
-import clase.aplicanti.Angajat;
-import clase.aplicanti.Elev;
-import clase.aplicanti.Student;
+import classes.aplicanti.Angajat;
+import classes.aplicanti.Elev;
+import classes.aplicanti.Student;
 
 import java.io.File;
 import java.io.FileNotFoundException;
