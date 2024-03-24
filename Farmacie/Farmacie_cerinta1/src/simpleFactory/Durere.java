@@ -1,7 +1,5 @@
 package simpleFactory;
 
-import simpleFactory.Medicament;
-
 public class Durere extends Medicament {
     public Durere(String denumire, double pret) {
         super(denumire, pret);
