@@ -11,13 +11,23 @@ import java.util.Map;
 
 public class Main {
     public static void main(String[] args) {
-        Pacient pacient = new PacientBuilder().setHalatInterior(false).setMicDejun(false).setPapuciCamera(false).setPatRabatabil(false).build();
+        PacientBuilder builder1 = new PacientBuilder();
+        Pacient pacient = builder1.setHalatInterior(false).setMicDejun(false).setPapuciCamera(false).setPatRabatabil(false).build();
+
+        Pacient pacient_2 = builder1.setHalatInterior(true).setMicDejun(true).build();
         System.out.println(pacient.toString());
+        System.out.println(pacient_2.toString());
+
+        System.out.println();
 
         spital_cerinta1_v2.Pacient.PacientBuilder builder = new spital_cerinta1_v2.Pacient.PacientBuilder();
         spital_cerinta1_v2.Pacient pacient_v2 = builder.setHalatInterior(true).setMicDejun(true).setPatRabatabil(false).setPapuciCamera(false).build();
-        System.out.println(pacient_v2.toString());
 
+        spital_cerinta1_v2.Pacient pacient_v2_2 = builder.setHalatInterior(false).setMicDejun(true).setPatRabatabil(true).setPapuciCamera(false).build();
+        System.out.println(pacient_v2.toString());
+        System.out.println(pacient_v2_2.toString());
+
+        System.out.println();
 
         Map<String, Double> solutii = new HashMap<>();
         solutii.put("paracetamol", 500.0);
