@@ -3,7 +3,7 @@ package softVechi;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Bucatarie implements SoftBucatarie{
+public class Bucatarie implements SoftBucatarie {
     private List<Produs> listaProduse;
 
     public Bucatarie() {
