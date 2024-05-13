@@ -13,10 +13,6 @@ public class Pacient {
         this.stare = stare;
     }
 
-    public Stare getStare() {
-        return stare;
-    }
-
     public void seAgraveazaStarea() {
         if(this.stare instanceof Internat) {
             new SubObservatie().setStare(this);
